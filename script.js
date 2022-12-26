@@ -8,11 +8,6 @@ let redditsearch = {
     },
     RedditDescription: async function (url) {
         return await fetch(url + ".json").then((response) => response.json()).then((data) => {
-            //console.log(data[0].data.children[0].data.subreddit);
-            //console.log(data[0].data.children[0].data.title);
-            //console.log(data[0].data.children[0].data.selftext);
-            //console.log(data[0].data.children[0].data.ups);
-            //console.log(data[0].data.children[0].data.upvote_ratio);
             return [data[0].data.children[0].data.subreddit,
             data[0].data.children[0].data.title,
             data[0].data.children[0].data.selftext,
@@ -45,7 +40,7 @@ let redditsearch = {
 
             // Title
             let item_title = document.createElement("h3");
-            item_title.innerText = site_body[1]; // GET TITLE FROM REDDIT NOT GOOGLE
+            item_title.innerText = site_body[1];
             item_title.classList.add('grid-item-title');
 
             // Description
@@ -57,14 +52,6 @@ let redditsearch = {
 
             let second_snippet = first_snippet.replace("\n", "<br>") + "...";
             item_snippet.innerHTML = second_snippet;
-
-          //  console.log(newline_count);
-         //   site_body[2] = site_body[2].replace("\n", "<br>");
-          //  char_count = char_count - newline_count * 100;
-            //item_snippet.innerHTML = site_body[2].slice(0, char_count);
-           // var newline_count = (site_body[2].match(/\n/g) || []).length;
-            
-           // item_snippet.innerText += "...";
 
             let bottom_item_div = document.createElement("div");
             bottom_item_div.classList.add('bottom-item-div');
