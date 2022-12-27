@@ -40,7 +40,11 @@ let redditsearch = {
 
             // Title
             let item_title = document.createElement("h3");
-            item_title.innerText = site_body[1];
+            let full_title = site_body[1];
+            if (full_title.length > 75) {
+                full_title = full_title.slice(0, 75) + "...";
+            }
+            item_title.innerText = full_title;
             item_title.classList.add('grid-item-title');
 
             // Description
