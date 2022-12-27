@@ -1,7 +1,6 @@
 # RedditSearch
 No one uses the Reddit search engine anyways...so I thought I would make one! Using the Google Search API and Reddit API, it displays up to 10 results of any queries you input with a simple scalable interface. This being a fun project I did not pay for the API key so only 100 calls can be made. 
 
-
 ## Table of Contents
 - [Languages](#languages)
 - [Usage](#usage)
