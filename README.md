@@ -7,7 +7,7 @@ No one uses the Reddit search engine anyways...so I thought I would make one! Us
 - [Contributors](#contributors)
 
 ## Languages
-- HTML, CSS, JS
+- HTML, CSS, Javascript
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
 <code><img height="20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/791px-CSS3_and_HTML5_logos_and_wordmarks.svg.png"></code>
 
